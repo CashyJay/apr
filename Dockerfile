@@ -3,3 +3,4 @@ WORKDIR /var/app
 copy . /var/app
 RUN pip install flask
 CMD ["python", "test.py"]
+
